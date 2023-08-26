@@ -33,8 +33,8 @@ function reverse(str) {
 //   return reversedString;
 
 // SOLUTION 4
+  debugger;
   return str.split('').reduce((acc, char) => {
-    console.log('acc=', acc)
     return char + acc;
   }, '');
 }
